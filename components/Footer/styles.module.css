@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    left: 45%;
+}
+
+.footer h4{
+    font-size: 25px;
+    color: pink;
+}

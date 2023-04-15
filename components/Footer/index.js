@@ -7,9 +7,9 @@ const Footer = () => {
     <footer className={styles.footer}>
       <h4>Built with Next.js</h4>
       <div className={styles.mail}>
-      <AiOutlineMail />
+      <AiOutlineMail className={styles.mailicon}/>
       <Link href="mailto:sumerf39@gmail.com">
-        <h4>Send Mail</h4>
+        <h3 >Send Mail</h3>
       </Link>
       </div>
     </footer>

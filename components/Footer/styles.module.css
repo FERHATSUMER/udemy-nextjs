@@ -12,7 +12,14 @@
     color: pink;
 }
 .mail{
+    width: 150px;
     display: flex;
-    margin-right: 15px;
+    position: fixed;
+    right: 4px;
     color:#fff;
+    gap: 7px;
+}
+.mailicon{
+font-size: 20px;
+right: 4px;
 }

@@ -1,6 +1,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Home from "@/components/Home";
 import React from "react";
 
 const Layout = ({children}) => {
@@ -8,6 +9,7 @@ const Layout = ({children}) => {
     <React.Fragment>
       <Header/>
       {children}
+      <Home/>
       <Footer/>
     </React.Fragment>
   );

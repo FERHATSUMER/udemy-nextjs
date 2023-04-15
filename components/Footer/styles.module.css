@@ -11,3 +11,8 @@
     font-size: 25px;
     color: pink;
 }
+.mail{
+    display: flex;
+    margin-right: 15px;
+    color:#fff;
+}
